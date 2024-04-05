@@ -8,7 +8,7 @@ import Loader from "../components/Loader";
 import toast from "react-hot-toast";
 
 const Home = () => {
-  const SERVER = "http://localhost:4000";
+  const SERVER = "https://weather-backend-6evk.onrender.com";
   const [isLoading, setIsLoading] = useState(true);
   const [showData, setShowData] = useState(false);
   const [cord, setCord] = useState(false);
